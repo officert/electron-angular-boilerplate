@@ -1,0 +1,40 @@
+// docs for jshint : http://www.jshint.com/docs/
+// options for jshint : http://www.jshint.com/docs/options/
+
+{
+  "undef": true, //flag undefined vars
+  "unused": true, //flag unused vars
+  "predef": [
+    "angular",
+    "$",
+    "_",
+    "moment",
+    "ga",
+    "console",
+    "twemoji",
+    "confirm",
+    "document",
+    "window",
+    "navigator",
+    "Rollbar",
+    "SC",
+    "describe",
+    "beforeEach",
+    "module",
+    "inject",
+    "it",
+    "spyOn",
+    "expect",
+    "afterEach",
+    "controller",
+    "process",
+    "require",
+    "__dirname",
+    "child_process",
+    "next",
+    "alert"
+  ], //list of accepted globals
+  "camelcase": true, //force all vars to be named with camelcase or UPPER_CASE
+  "bitwise": true, //prohibit bitwise operators
+  "eqeqeq": true //disallow == and !=
+}

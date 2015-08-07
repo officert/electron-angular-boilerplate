@@ -1,0 +1,43 @@
+//vendor
+@import "../vendor/bootstrap/less/bootstrap.less";
+@import "../vendor/font-awesome/less/font-awesome.less";
+
+//
+//app
+@import 'appVariables';
+@import 'appComponents.less';
+@import 'appAnimations.less';
+
+//components
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#sidebar {
+  width: @sidebar-width;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: @gray-lighter;
+}
+#content {
+  padding-left: @sidebar-width;
+}
